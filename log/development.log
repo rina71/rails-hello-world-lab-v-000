@@ -32,3 +32,10 @@ Started GET "/" for 207.38.166.183 at 2018-10-19 00:02:58 +0000
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 207.38.166.183 at 2018-10-19 00:03:03 +0000
+Processing by Rails::InfoController#properties as */*
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/info/properties.html.erb (0.6ms)
+Completed 200 OK in 52ms (Views: 14.2ms | ActiveRecord: 2.5ms)
